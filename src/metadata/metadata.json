@@ -1,0 +1,280 @@
+{
+  "package": "Swapi",
+  "tagline": "Swapi API",
+  "description": "Star Wars API",
+  "image": "http:\/\/logo.clearbit.com\/swapi.co",
+  "repo": "https:\/\/github.com\/RapidSoftwareSolutions\/Marketplace-Swapi-Package",
+  "keywords": [
+  ],
+  "accounts": {
+    "domain": "swapi.co",
+    "credentials": [
+    ]
+  },
+  "blocks": [
+    {
+      "name": "getPeoples",
+      "description": "Get all the people resources",
+      "args": [
+        {
+          "name": "pageNumber",
+          "type": "Number",
+          "info": "Number of the page",
+          "required": false
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getSinglePerson",
+      "description": "Get single person resource",
+      "args": [
+        {
+          "name": "personId",
+          "type": "Number",
+          "info": "Id of the person",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getFilms",
+      "description": "Get all the films resources",
+      "args": [
+        {
+          "name": "pageNumber",
+          "type": "Number",
+          "info": "Number of the page",
+          "required": false
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getSingleFilm",
+      "description": "Get single film resource",
+      "args": [
+        {
+          "name": "filmId",
+          "type": "Number",
+          "info": "Id of the film",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getStarships",
+      "description": "Get all the starships resources",
+      "args": [
+        {
+          "name": "pageNumber",
+          "type": "Number",
+          "info": "Number of the page",
+          "required": false
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getSingleStarship",
+      "description": "Get single startship resource",
+      "args": [
+        {
+          "name": "starshipId",
+          "type": "Number",
+          "info": "Id of the starship",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getVehicles",
+      "description": "Get all the vehicles resources",
+      "args": [
+        {
+          "name": "pageNumber",
+          "type": "Number",
+          "info": "Number of the page",
+          "required": false
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getSingleVehicle",
+      "description": "Get single vehicle resource",
+      "args": [
+        {
+          "name": "vehicleId",
+          "type": "Number",
+          "info": "Id of the vehicle",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getSpecies",
+      "description": "Get all the species resources",
+      "args": [
+        {
+          "name": "pageNumber",
+          "type": "Number",
+          "info": "Number of the page",
+          "required": false
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getSingleSpecies",
+      "description": "Get single species resource",
+      "args": [
+        {
+          "name": "speciesId",
+          "type": "Number",
+          "info": "Id of the species",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getPlanets",
+      "description": "Get all the planets resources",
+      "args": [
+        {
+          "name": "pageNumber",
+          "type": "Number",
+          "info": "Number of the page",
+          "required": false
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    },
+    {
+      "name": "getSinglePlanet",
+      "description": "Get single planet resource",
+      "args": [
+        {
+          "name": "planetId",
+          "type": "Number",
+          "info": "Id of the planet",
+          "required": true
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "Error"
+        },
+        {
+          "name": "success",
+          "info": "Success"
+        }
+      ]
+    }
+  ]
+}
