@@ -11,7 +11,7 @@ $app->post('/api/Swapi/getSingleStarship', function ($request, $response, $args)
         $post_data = $validateRes;
     }
     //forming request to vendor API
-    $query_str = $settings['api_url'].'starships/'.$post_data['args']['startshipId'];
+    $query_str = $settings['api_url'].'starships/'.$post_data['args']['starshipId'];
 
     //requesting remote API
     $client = new GuzzleHttp\Client();
